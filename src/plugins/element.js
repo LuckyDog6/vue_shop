@@ -10,16 +10,15 @@ import {
   Aside,
   Main,
   Menu,
-  MenuItem,
   Submenu,
-  MenuItemGroup,
-  BreadcrumbItem,
+  MenuItem,
   Breadcrumb,
+  BreadcrumbItem,
   Card,
   Row,
   Col,
-  TableColumn,
   Table,
+  TableColumn,
   Switch,
   Tooltip,
   Pagination,
@@ -32,7 +31,12 @@ import {
   Cascader,
   Alert,
   Tabs,
-  TabPane
+  TabPane,
+  Steps,
+  Step,
+  Checkbox,
+  CheckboxGroup,
+  Upload
 } from 'element-ui'
 
 Vue.use(Button)
@@ -44,16 +48,15 @@ Vue.use(Header)
 Vue.use(Aside)
 Vue.use(Main)
 Vue.use(Menu)
-Vue.use(MenuItem)
 Vue.use(Submenu)
-Vue.use(MenuItemGroup)
-Vue.use(BreadcrumbItem)
+Vue.use(MenuItem)
 Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
 Vue.use(Card)
 Vue.use(Row)
 Vue.use(Col)
-Vue.use(TableColumn)
 Vue.use(Table)
+Vue.use(TableColumn)
 Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
@@ -66,5 +69,11 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
+
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
